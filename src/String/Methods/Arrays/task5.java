@@ -9,6 +9,7 @@ public class task5 {
         int n = sc.nextInt();
         System.out.println("Arrayin elementlərini daxil edin: ");
         int[] arr = new int[n];
+        int[] arrReverse = new int[n];
         for (int i = 0; i < arr.length; i++) {
             arr[i] = sc.nextInt();
         }
@@ -17,14 +18,17 @@ public class task5 {
             System.out.println("arr[" + i + "]= " + arr[i]);
         }
         System.out.println();
-        reverseArray(arr);
+        reverseArray(arr,arrReverse);
+        for (int i=0;i<arrReverse.length;i++){
+            System.out.println(arrReverse[i]);
+        }
     }
-    public static void reverseArray(int [] array){
-        array= new int[]{1, 2, 3, 4, 5};
-        for (int i= 0; i>= array.length; i++){
-           array[i]=array[array.length-1];
-                System.out.println("array["+i+"]="+array[i]);
+    public static void reverseArray(int [] array,int [] arrayResult){
+        int k=0;
+        for(int i=array.length-1;i>=0;i--){
+            arrayResult[k]=array[i];
+            k++;
+        }
 
-        }                 //problemli
     }
 }

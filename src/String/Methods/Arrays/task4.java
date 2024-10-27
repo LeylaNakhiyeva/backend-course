@@ -22,14 +22,16 @@ public class task4 {
     public static void check(int [] array){
         Scanner sc= new Scanner(System.in);
         int a= sc.nextInt();
-         array=new int[] {1,2,3,4,56};
+        boolean checkData=false;
         for (int i=0; i<array.length; i++){
             if (array [i]==a){
                 System.out.println("Bu elementin indeksi: "+i);
+                checkData=true;
+                break;
             }
-            if(array[i]!=a) {
-                System.out.println("-1");
-            }
+        }
+        if(!checkData){
+            System.out.println(-1);
         }
 
             }

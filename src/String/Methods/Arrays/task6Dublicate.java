@@ -1,6 +1,6 @@
 package String.Methods.Arrays;
 
-public class taskDublicate {
+public class task6Dublicate {
     public static void main(String[] args) {
         int[] dataDublicate=new int[]{1,2,3,4,1,1,2};
         int[] data=new int[dataDublicate.length];

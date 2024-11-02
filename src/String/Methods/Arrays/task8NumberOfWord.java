@@ -2,7 +2,7 @@ package String.Methods.Arrays;
 
 import java.util.Scanner;
 
-public class numberOfWord {
+public class task8NumberOfWord {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         String sentence = sc.nextLine();

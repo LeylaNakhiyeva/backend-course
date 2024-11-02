@@ -2,7 +2,7 @@ package String.Methods.Arrays;
 
 import java.util.Scanner;                       //task7
 
-public class reverseWord {
+public class task7ReverseWord {
     public static void main(String[] args) {
 
         Scanner sc=new Scanner(System.in);

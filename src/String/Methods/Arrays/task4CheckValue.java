@@ -2,7 +2,7 @@ package String.Methods.Arrays;
 
 import java.util.Scanner;
 
-public class task4 {
+public class task4CheckValue {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.print("Arrayin ölçüsünü daxil edin: ");

@@ -1,6 +1,6 @@
 package String.Methods.Arrays;
 
-public class groupElementsOfArray {
+public class task10GroupElementsOfArray {
     public static void main(String[] args) {
         int [] array={5,12,19,22,8,25,30};
         groupElementsOfArray(array);

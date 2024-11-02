@@ -2,7 +2,7 @@ package String.Methods.Arrays;
 
 import java.util.Scanner;
 
-public class taskReverseSentence {
+public class task13ReverseSentence {
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
         String sentence= sc.nextLine();
@@ -20,11 +20,9 @@ public class taskReverseSentence {
     }
     public static void reverseSentence2(String sentence){
         String result="";
-      //  for(int i=0; i<sentence.length(); i++){
             for(int j=sentence.length()-1; j>=0; j--){
                 result+=sentence.charAt(j);
             }
-    //    }
         System.out.println(result);
     }
 }

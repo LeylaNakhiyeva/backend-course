@@ -2,20 +2,23 @@ package String.Methods.Arrays;
 
 import java.util.Scanner;
 
-public class increasingDirection {
+public class task11İncreasingDirection {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
+        System.out.print("Massivin ölçüsü: ");
         int n = sc.nextInt();
+        System.out.println("Massivin elementləri: ");
         int[] arr = new int[n];
         for (int i = 0; i < arr.length; i++) {
             arr[i] = sc.nextInt();
         }
+        System.out.println("Massiv: ");
         for (int i=0; i< arr.length; i++){
             System.out.println("arr["+i+"]= "+arr[i]);
         }
         System.out.println();
-       increasingDirectionOfArray(arr);
-
+        System.out.println("Artan istiqamətdə massivin elementləri: ");
+        increasingDirectionOfArray(arr);
     }
 
     public static void increasingDirectionOfArray(int[] array1) {
